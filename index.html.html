@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <style>
+    .kanna
+    {
+        display: flex;
+        grid-template-columns: 1fr 1fr;
+        height:100%;
+        max-width: 200vh;
+    }
+    .kanna1
+    {
+        border-style:double;
+        border-radius: 2%;
+        height: 80vh;
+        max-width: max-content;
+        padding: 150px; 250px;
+        
+    }
+
+   </style>
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="kanna">
+        <div class="kanna1" style="background-color: blue;" >
+            <form  style="text-align: center;" >
+                <h1>LOG IN</h1>
+                <INPUt type="email" placeholder="        ENTER EMAIL" name="email"></INPUt><br><br><br>
+                <INPUt type="password" placeholder="        ENTER PASSWORD"></INPUt><br><br><br>
+                <INPut type="datetime-local" placeholder="verify as human"></INPut><br><br><br><br><br>
+                <input type="submit"  value="Log In">
+
+
+            </form>
+        </div>
+        <div class="kanna1"  style="background-color: cadetblue;">
+            <form style="text-align: center;"><h1>REGISTRATION</h1><BR><BR><BR></BR></BR></BR>
+                <INPUt type="text" placeholder="ENTER FIRST NAME "></INPUt><BR></BR>
+                <INPUt type="text" placeholder="ENTER LAST NAME "></INPUt><BR></BR>
+                <INPut type="email"placeholder="ENTER EMAIL"></INPut><BR></BR>
+                <INPut type="password" placeholder="ENTER PASSWORD "></INPut><BR></BR>
+                <INPUt type="password" placeholder="CONFIRM PASSWORD"></INPUt><BR></BR>
+                <SElect>
+                    <OPTIOn>SELECT THE COUNTRY</OPTIOn>
+                    <OPTION>INDIA</OPTION>
+                    <OPTION>USA</OPTION>
+                    <OPTION>UK</OPTION>
+                    <OPTION>AUSTRILIA</OPTION>
+                    <OPTION>CANADA</OPTION>
+                </SElect><BR></BR>
+               SELECT PASSPORT <INPUt type="radio" name="YES"></INPUt>YES
+               <INPUt type="radio" name="YES"></INPUt>NO <BR></BR>
+               <INput type="checkbox"></INput>I AGREE WITH TERMS AND CONDITIONS <BR></BR>
+               <INput type="submit" name="submit" value="submit"></INput>&nbsp;&nbsp;&nbsp;&nbsp;
+               <INPUt type="reset"></INPUt>
+            
+            </form>
+
+        </div>
+    </div>
+    
+</body>
+</html>
